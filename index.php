@@ -1,63 +1,41 @@
 <?php
+
+    ob_start();
     include ('header.php');
 ?>
 
-  <!-- include banner area  -->
+
 <?php
+    //<!-- include banner area  -->
+
     include ('Template/_banner-area.php');
-?>
-    <!-- !include banner area -->
 
-    <!-- include top sale-->
+
+   // <!-- include top sale
+
+    include ('Template/_top-sale.php');
+
+   // <!-- include special price-->
+
+    include ('Template/_special-price.php');
+
+    //<!-- include banner ads-->
+
+        include ('Template/_banner-ads.php');
+
+    //<!-- include new phones -->
+
+        include ('Template/_new-phones.php');
+
+    //<!-- include blogs -->
+
+        include ('Template/_blogs.php');
+
+
+?>
 <?php
-
-include ('Template/_top-sale.php');
-
-?>
-    <!-- !include top sale -->
-
-
-    <!-- include special price-->
-<?php
-
-include ('Template/_special-price.php');
+//<!-- include footer -->
+        include ('footer.php');
 
 ?>
-    <!-- !include special price -->
 
-
-    <!-- include banner ads-->
-<?php
-
-include ('Template/_banner-ads.php');
-
-?>
-    <!-- !include banner ads -->
-
-
-
-    <!-- include new phones -->
-<?php
-
-include ('Template/_new-phones.php');
-
-?>
-    <!-- !include new phones -->
-
-
-    <!-- include blogs -->
-<?php
-
-include ('Template/_blogs.php');
-
-?>
-    <!-- !include blogs -->
-
-
-
-<!-- include footer -->
-<?php
-include ('footer.php');
-
-?>
-<!-- !include footer  -->
